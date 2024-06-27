@@ -1,0 +1,4 @@
+.fixedHeight {
+    height: 300px; /* Adjust the height as needed */
+    overflow: hidden; /* Optional: Hide overflow text */
+  }
