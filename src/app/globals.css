@@ -24,16 +24,16 @@
 }
 
 .gray-background h2 {
-  margin-bottom: 1rem; /* Example margin bottom */
+  margin-bottom: 1rem; 
 }
 
 .gray-background p {
-  margin-bottom: 2rem; /* Example margin bottom */
+  margin-bottom: 2rem; 
   font-size: 10px;
 }
 
 .gray-background button {
-  font-size: 10px; /* Example font size */
+  font-size: 10px; 
   padding: 10px 20px;
   border-radius: 30px !important;
 }
@@ -64,5 +64,13 @@
 
 .input-group input::placeholder {
   color: white;
-  opacity: 1; /* Ensure placeholder is fully visible */
+  opacity: 1; 
+}
+
+footer li, p{
+  font-size: 14px;
+}
+
+.white-image {
+  filter: invert(1);
 }
