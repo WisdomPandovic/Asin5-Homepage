@@ -11,6 +11,7 @@
 .custom-button button{
   border-radius: 30px !important;
   padding: 10px 20px;
+  font-size: 13px;
 }
 
 .gray-background, .bg-gray {
@@ -73,4 +74,9 @@ footer li, p{
 
 .white-image {
   filter: invert(1);
+}
+
+.nav-link-custom p{
+  font-size: 13px; 
+  color: black;
 }
