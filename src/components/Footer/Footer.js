@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react';
-import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin, FaWeixin } from 'react-icons/fa';
+import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin, FaWeixin, FaYoutube } from 'react-icons/fa';
 import Image from 'next/image';
 
 const Footer = () => {
@@ -155,11 +155,12 @@ const Footer = () => {
                     </div>
                     <div className='col-lg-4 '>
                         <div className="dk_foot_icon d-flex justify-content-center align-items-center">
+                        <div className="mx-2"><FaFacebook /></div>
+                        <div className="mx-2"><FaTwitter /></div>
                             <div className="mx-2"><FaInstagram /></div>
-                            <div className="mx-2"><FaFacebook /></div>
-                            <div className="mx-2"><FaTwitter /></div>
                             <div className="mx-2"><FaLinkedin /></div>
                             <div className="mx-2"><FaWeixin /></div>
+                            <div className="mx-2"><FaYoutube /></div>
                         </div> 
                     </div>
                 </div>
