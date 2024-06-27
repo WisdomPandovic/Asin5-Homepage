@@ -80,3 +80,7 @@ footer li, p{
   font-size: 13px; 
   color: black;
 }
+
+.h-300{
+  height: 200px;
+}

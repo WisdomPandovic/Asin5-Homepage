@@ -14,11 +14,12 @@ export default function Home() {
       <HeroSection />
       <div className="gray-background">
         <div className="container py-4 pt-5">
-          <p className="text-upper text-primary fw-bold">Who are we</p>
+          <p className="text-upper text-primary fw-bold">Who We Are</p>
           <h2 className="lh-1 fs-4 fw-bold ">
             We Make Your Startup A Success Story
           </h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p className="mb-0">SINC Partners has a novel vision of making success available to everyone and democratizing the pain point of success. We are a next generation startup studio focus on building and supporting enterprises at scale and we help them raise service investments and funds across 3-5 deals from as low as $25k at start to up to $15m before you leave the lab.</p>
+          <p >We are a Gasus Business, a business built on the foundation of Christian values and belief.</p>
           <button className="btn btn-dark btn-sm mt-3">READ ABOUT US</button>
         </div>
       </div>

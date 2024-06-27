@@ -6,10 +6,10 @@ const AreasOfFocusComponent = () => {
   return (
     <div className="container py-4">
       <div className={styles.focusSection}>
-        <h2 className="text-center lh-1 fs-4 mb-4 mt-5">
+        <h2 className="text-center lh-1 fs-4 mb-4 mt-5 fw-bold">
           Our 5 Areas of Focus
         </h2>
-        <p className='pb-5'>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        <p className='pb-5'>In our quest to help make success available to everyone, we have initial strategic direction to focus on these five (5) key areas at the lab</p>
       </div>
       {/* <div className="row">
         <div className="col mb-4">
