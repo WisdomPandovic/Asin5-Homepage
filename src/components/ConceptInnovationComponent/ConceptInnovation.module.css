@@ -8,4 +8,32 @@
   }
 
 
-  
+  .colLg2Fifth {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+.col-lg-2-fifth {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+@media (max-width: 992px) {
+    .colLg2Fifth{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+@media (max-width: 768px) {
+    .colLg2Fifth {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+
+@media (max-width: 576px) {
+    .colLg2Fifth {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
