@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Nav from "@/components/NavComponent/NavBar";
+import Nav from "@/components/NavComponent/MyNavBar";
 import ImportBsJS from "@/app/importBsJS";
 import Footer from "@/components/Footer/Footer";
 
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <ImportBsJS />
-        {/* <Nav/> */}
+        <Nav/>
         {children}
         <Footer />
       </body>

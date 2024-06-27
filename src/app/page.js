@@ -5,7 +5,8 @@ import ServiceIncubation from "@/components/ServiceIncubationComponent/ServiceIn
 import StartupPortfolio from "@/components/StartupPortfolio/StartupPortfolio";
 import ConceptInnovation from "@/components/ConceptInnovationComponent/ConceptInnovation";
 import IncubationProgramme from "@/components/IncubationProgramm/IncubationProgramm";
-import WhatWeBring from "@/components/WhatWeBring/WhatWeBring"
+import WhatWeBring from "@/components/WhatWeBring/WhatWeBring";
+import WhatMatterMost from "@/components/WhatMatterMost/WhatMatterMost"
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <ConceptInnovation/>
       <IncubationProgramme/>
       <WhatWeBring/>
+      <WhatMatterMost/>
     </div>
   );
 }

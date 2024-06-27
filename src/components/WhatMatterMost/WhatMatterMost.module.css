@@ -1,0 +1,8 @@
+.focusSection{
+    text-align: right;
+    max-width: 500px; 
+    margin: auto; 
+}
+.focusSection p {
+    font-size: 10px;
+  }
