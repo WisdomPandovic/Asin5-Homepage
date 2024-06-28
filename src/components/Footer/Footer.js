@@ -26,100 +26,96 @@ const Footer = () => {
                             </form>
                         </div>
                     </div>
-                </div><hr></hr>
+                </div>
 
-                <div className="row">
-                    <div className="col-md-12">
-                        <div className="row py-4">
-                            <div className="col-md-2">
-                                <div className="justify-content-center align-items-center pt-5 pb-5">
-                                    <div>
-                                        <Image
-                                            src="/images/sign.png"
-                                            alt="/"
-                                            width={10}
-                                            height={50}
-                                            className="card-img-top mb-3 white-image"
-                                        />
-                                        <p>SINC Partners Lab is a SaaS and a Marketing Tech startup studio building platform-based products for solution-providers and entrepreneurs that will help democratize success
-                                        </p>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-2">
-                                <div className="pt-5 pb-5">
-                                    <h5 className='pb-3'>Platforms</h5>
-                                    <ul className="list-unstyled">
-                                        <li className="mb-3">Kofoundme</li>
-                                        <li className="mb-3">InResidences</li>
-                                        <li className="mb-3">Service Market</li>
-                                        <li className="mb-3">Founder School</li>
-                                        <li className="mb-3">Metty</li>
-                                        <li className="mb-3">Grantty</li>
-                                        <li className="mb-3">SBO</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-md-2">
-                                <div className="pt-5 pb-5">
-                                    <h5 className='pb-3'>Initiatives</h5>
-                                    <ul className="list-unstyled">
-                                        <li className="mb-3">Jabi Plains</li>
-                                        <li className="mb-3">Local Pricing Initiative</li>
-                                        <li className="mb-3">Scholarship Program</li>
-                                        <li className="mb-3">School Pricing Program</li>
-                                        <li className="mb-3"><a className="nav-link" href="/our-classes">University STEM</a></li>
-                                        <li className="mb-3">University InResidency </li>
-                                        <li className="mb-3">Founder Festival </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-md-2">
-                                <div className="justify-content-center align-items-center pt-5 pb-5">
-                                    <h5 className='pb-3'>About Us</h5>
-                                    <ul className="list-unstyled">
-                                        <li className="mb-3">Who We Are</li>
-                                        <li className="mb-3">Our People</li>
-                                        <li className="mb-3">Companies</li>
-                                        <li className="mb-3">Career</li>
-                                        <li className="mb-3">Resources</li>
-                                        <li className="mb-3">Blog & FAQ</li>
-                                        <li className="mb-3">Contact</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-md-2">
-                                <div className="justify-content-center align-items-center pt-5 pb-5">
-                                    <h5 className='pb-3'>Others</h5>
-                                    <ul className="list-unstyled">
-                                        <li className="mb-3">SIP</li>
-                                        <li className="mb-3">SEEQ</li>
-                                        <li className="mb-3">Deals</li>
-                                        <li className="mb-3">Job</li>
-                                        <li className="mb-3">Investors</li>
-                                        <li className="mb-3">Hacker News</li>
-                                        <li className="mb-3">Press</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div className="col-md-2 border-left" style={{ borderLeft: '2px solid white' }}>
-                                <div className="pt-5 pb-5 pl-4">
-                                    <h5 className='pb-3'>Locations</h5>
-                                    <ul className="list-unstyled">
-                                        <li className="mb-3">Abuja, Nigeria </li>
-                                        <li className="mb-3">Lagos, Nigeria </li>
-                                        <li className="mb-3">Philadelphia, USA</li>
-                                        <li className="mb-3">Mini & VIP VAN class</li>
-                                        <li className="mb-3"><a className="nav-link" href="/our-classes">All Classes</a></li>
-                                    </ul>
+                <div className="row border-top border-bottom">
+                <div className="col-md-12">
+                    <div className="row py-4">
+                        <div className="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+                            <div className="justify-content-center align-items-center pt-5 pb-5">
+                                <div>
+                                    <Image
+                                        src="/images/sign.png"
+                                        alt="/"
+                                        width={10}
+                                        height={50}
+                                        className="card-img-top mb-3 white-image"
+                                    />
+                                    <p>SINC Partners Lab is a SaaS and a Marketing Tech startup studio building platform-based products for solution-providers and entrepreneurs that will help democratize success.</p>
                                 </div>
                             </div>
                         </div>
+                        <div className="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+                            <div className="pt-5 pb-5">
+                                <h5 className='pb-3'>Platforms</h5>
+                                <ul className="list-unstyled">
+                                    <li className="mb-3">Kofoundme</li>
+                                    <li className="mb-3">InResidences</li>
+                                    <li className="mb-3">Service Market</li>
+                                    <li className="mb-3">Founder School</li>
+                                    <li className="mb-3">Metty</li>
+                                    <li className="mb-3">Grantty</li>
+                                    <li className="mb-3">SBO</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+                            <div className="pt-5 pb-5">
+                                <h5 className='pb-3'>Initiatives</h5>
+                                <ul className="list-unstyled">
+                                    <li className="mb-3">Jabi Plains</li>
+                                    <li className="mb-3">Local Pricing Initiative</li>
+                                    <li className="mb-3">Scholarship Program</li>
+                                    <li className="mb-3">School Pricing Program</li>
+                                    <li className="mb-3"><a className="nav-link" href="/our-classes">University STEM</a></li>
+                                    <li className="mb-3">University InResidency</li>
+                                    <li className="mb-3">Founder Festival</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+                            <div className="justify-content-center align-items-center pt-5 pb-5">
+                                <h5 className='pb-3'>About Us</h5>
+                                <ul className="list-unstyled">
+                                    <li className="mb-3">Who We Are</li>
+                                    <li className="mb-3">Our People</li>
+                                    <li className="mb-3">Companies</li>
+                                    <li className="mb-3">Career</li>
+                                    <li className="mb-3">Resources</li>
+                                    <li className="mb-3">Blog & FAQ</li>
+                                    <li className="mb-3">Contact</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-lg-2 col-md-4 col-sm-6 col-12 mb-4">
+                            <div className="justify-content-center align-items-center pt-5 pb-5">
+                                <h5 className='pb-3'>Others</h5>
+                                <ul className="list-unstyled">
+                                    <li className="mb-3">SIP</li>
+                                    <li className="mb-3">SEEQ</li>
+                                    <li className="mb-3">Deals</li>
+                                    <li className="mb-3">Job</li>
+                                    <li className="mb-3">Investors</li>
+                                    <li className="mb-3">Hacker News</li>
+                                    <li className="mb-3">Press</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-lg-2 col-md-4 col-sm-6 col-12 mb-4 border-left" style={{ borderLeft: '2px solid white' }}>
+                            <div className="pt-5 pb-5 pl-4">
+                                <h5 className='pb-3'>Locations</h5>
+                                <ul className="list-unstyled">
+                                    <li className="mb-3">Abuja, Nigeria</li>
+                                    <li className="mb-3">Lagos, Nigeria</li>
+                                    <li className="mb-3">Philadelphia, USA</li>
+                                    <li className="mb-3">Mini & VIP VAN class</li>
+                                    <li className="mb-3"><a className="nav-link" href="/our-classes">All Classes</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-
-                </div><hr />
+                </div>
+            </div>
             </div>
 
             <div className='container'>
