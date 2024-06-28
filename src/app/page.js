@@ -6,8 +6,8 @@ import StartupPortfolio from "@/components/StartupPortfolio/StartupPortfolio";
 import ConceptInnovation from "@/components/ConceptInnovationComponent/ConceptInnovation";
 import IncubationProgramme from "@/components/IncubationProgramm/IncubationProgramm";
 import WhatWeBring from "@/components/WhatWeBring/WhatWeBring";
-import WhatMatterMost from "@/components/WhatMatterMost/WhatMatterMost"
-
+import WhatMatterMost from "@/components/WhatMatterMost/WhatMatterMost";
+import SliderComponent from "@/components/SliderComponent/SliderComponent"
 export default function Home() {
   return (
     <div className="">
@@ -31,6 +31,7 @@ export default function Home() {
       <IncubationProgramme/>
       <WhatWeBring/>
       <WhatMatterMost/>
+      <SliderComponent/>
     </div>
   );
 }
